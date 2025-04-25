@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://helpdesk-backend-zdet.onrender.com/api',
 });
 
 // Optional: Interceptor to add token
