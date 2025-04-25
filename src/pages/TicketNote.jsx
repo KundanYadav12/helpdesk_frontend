@@ -82,7 +82,7 @@ const TicketNotes = () => {
                   {note.attachment && (
                     <div className="mt-3">
                       <a
-                        href={`http://localhost:5000/uploads/${note.attachment}`}
+                        href={`https://helpdesk-backend-zdet.onrender.com/uploads/${note.attachment}`}
                         className="btn btn-sm btn-outline-primary"
                         download
                         target="_blank"
