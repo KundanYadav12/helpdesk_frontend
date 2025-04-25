@@ -1,29 +1,3 @@
-// // src/pages/Home.jsx
-// import React from 'react';
-// import { useNavigate } from 'react-router-dom';
-
-// function Home() {
-//   const navigate = useNavigate();
-
-//   return (
-//     <div className="container text-center mt-5">
-//       <h1>Welcome to HelpDesk Portal</h1>
-//       <p className="lead">Please login or register to continue.</p>
-//       <div className="d-flex justify-content-center gap-3">
-//         <button className="btn btn-primary" onClick={() => navigate('/login')}>
-//           Login
-//         </button>
-//         <button className="btn btn-secondary" onClick={() => navigate('/register')}>
-//           Register
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Home;
-
-
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';

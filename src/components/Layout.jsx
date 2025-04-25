@@ -3,7 +3,7 @@ import { Outlet, useNavigate } from 'react-router-dom';
 import { Container, Row, Col, Button, Navbar, Nav, } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../redux/authSlice';
-import { BoxArrowRight } from 'react-bootstrap-icons'; // Icon
+import { BoxArrowRight } from 'react-bootstrap-icons'; 
 import { HouseDoorFill, TicketPerforatedFill, CloudUploadFill, Speedometer2 } from 'react-bootstrap-icons';
 
 const Layout = () => {
@@ -21,14 +21,12 @@ const Layout = () => {
     return (
         <div>
             {/* Header for small screens */}
-            <Navbar bg="dark" variant="dark" className="d-md-none d-flex justify-content-between px-3">
-                {/* <Container> */}
+            <Navbar bg="dark" variant="dark" className="d-md-none d-flex justify-content-between px-3">                
                 <Navbar.Brand>Helpdesk</Navbar.Brand>
                 <Button variant="outline-light" size="sm" onClick={handleLogout}>
                     <BoxArrowRight className="me-1" />
                     Logout
-                </Button>
-                {/* </Container> */}
+                </Button>               
             </Navbar>
 
             <Container fluid>
@@ -84,7 +82,7 @@ const Layout = () => {
                         </Button>
                     </Col>
 
-                    {/* Main Content */}
+                    
                     <Col md={9} className="p-3">
                         <Outlet />
                     </Col>
