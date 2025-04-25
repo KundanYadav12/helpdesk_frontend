@@ -57,7 +57,7 @@ const MyTickets = () => {
                       {note.attachment && (
                         <div className="mt-1">
                           <a
-                            href={`http://localhost:5000/${note.attachment.replace(/\\/g, '/')}`}
+                            href={`https://helpdesk-backend-zdet.onrender.com/${note.attachment.replace(/\\/g, '/')}`}
                             download
                             className="btn btn-sm btn-outline-primary"
                           >
